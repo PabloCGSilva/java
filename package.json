@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.10.6",
+    "apollo-angular": "^7.0.2",
+    "apollo-angular-link-http": "^1.11.0",
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.9.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^18.0.5",
+    "@angular/core": "^18.0.4",
+    "sass": "^1.77.6"
+  }
+}

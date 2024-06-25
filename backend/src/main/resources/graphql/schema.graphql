@@ -1,0 +1,16 @@
+type MyEntity {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type Query {
+  getMyEntity(id: ID!): MyEntity
+  getAllMyEntities: [MyEntity]
+}
+
+type Mutation {
+  createMyEntity(name: String!, description: String): MyEntity
+  updateMyEntity(id: ID!, name: String!, description: String): MyEntity
+  deleteMyEntity(id: ID!): Boolean
+}
